@@ -9,7 +9,7 @@ Array.prototype.reduce = function () {
 };
 
 it('should sum stars', function () {
-  console.log('TECHIO> open -s /project/target/www index.html');
+  console.log('TECHIO> open -s /project/www index.html');
   try {
     assert.equal(6, universe.countAllStars([1, 2, 3]));
     assert.equal(16, universe.countAllStars([10, 3, 2, 1]));
